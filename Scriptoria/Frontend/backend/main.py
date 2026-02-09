@@ -17,7 +17,7 @@ from backend.prompts import (
 # ===============================
 
 client = Groq(
-    api_key=os.getenv("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")
+    api_key=os.getenv("GROQ_API_KEY")
 )
 
 # ===============================
